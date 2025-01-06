@@ -3,5 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/hellochat/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hellochat/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hellofunction/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../maven-lib/org/springframework/boot/spring-boot-starter-parent/3.4.1/src/main/resources" charset="UTF-8" />
   </component>
 </project>

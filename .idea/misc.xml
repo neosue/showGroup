@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/hellochat/pom.xml" />
         <option value="$PROJECT_DIR$/hellofunction/pom.xml" />
         <option value="$PROJECT_DIR$/hello-structured-output/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-vectorstore/pom.xml" />
       </list>
     </option>
   </component>

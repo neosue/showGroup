@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: hellochat
+  neo4j:
+    uri: neo4j://localhost:7687
+    authentication:
+      username: neo4j
+      password: neosue525247
+  ai:
+    vectorstore:
+      neo4j:
+        initialize-schema: true
+        database-name: neo4j
+        index-name: hellovector
+        dimensions: 768
+        distance-type: cosine
+        batching-strategy: TOKEN_COUNT # Optional: Controls how documents are batched for embedding
+    ollama:
+      init:
+        pull-model-strategy: never #always
+        embedding:
+          additional-models:
+            - shaw/dmeta-embedding-zh:latest
+      embedding:
+        options:
+          model: shaw/dmeta-embedding-zh:latest

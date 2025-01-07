@@ -1,4 +1,4 @@
-package vip.easyde.hellofunction;
+package vip.easyde.hello;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

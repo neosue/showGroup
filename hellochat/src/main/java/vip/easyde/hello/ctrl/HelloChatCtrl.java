@@ -1,4 +1,4 @@
-package vip.easyde.hellofunction.ctrl;
+package vip.easyde.hello.ctrl;
 
 import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.ai.ollama.OllamaChatModel;

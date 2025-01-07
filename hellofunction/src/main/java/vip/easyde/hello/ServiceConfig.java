@@ -1,4 +1,4 @@
-package vip.easyde.hellofunction;
+package vip.easyde.hello;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

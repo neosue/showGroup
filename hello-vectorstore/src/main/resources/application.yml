@@ -12,7 +12,7 @@ spring:
         initialize-schema: true
         database-name: neo4j
         index-name: hellovector
-        dimensions: 768
+        dimensions: 1536
         distance-type: cosine
         batching-strategy: TOKEN_COUNT # Optional: Controls how documents are batched for embedding
     ollama:
@@ -20,7 +20,7 @@ spring:
         pull-model-strategy: never #always
         embedding:
           additional-models:
-            - shaw/dmeta-embedding-zh:latest
+            - rjmalagon/gte-qwen2-1.5b-instruct-embed-f16:latest #shaw/dmeta-embedding-zh:latest
       embedding:
         options:
           model: shaw/dmeta-embedding-zh:latest
